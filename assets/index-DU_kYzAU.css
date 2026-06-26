@@ -463,10 +463,14 @@
     }
 }
 
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1000px) {
     .shop__wrap {
         flex-direction: column-reverse;
     }
+
+    .shop__content {
+    width: 100%
+}
 
     .shop__sidebar {
         max-width: 1000px;
